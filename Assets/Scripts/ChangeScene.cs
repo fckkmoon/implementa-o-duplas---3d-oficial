@@ -9,7 +9,7 @@ public class ChangeScene : MonoBehaviour
     
     public void ChangeS()
     {
-        SceneManager.LoadScene(Menu);
+        SceneManager.LoadScene("PrimeiraFase");
     }
 
     public void Sair()
